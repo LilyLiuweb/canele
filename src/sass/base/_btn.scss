@@ -1,0 +1,51 @@
+@import './color';
+@import './common';
+
+:root{
+    --desktop-btn-width: 150px;
+}
+.primary-button{
+    background-color: $shop-btn-color;
+    color: $fff;
+    // width: 50%;
+    border-radius: $border-radius;
+    cursor: pointer;
+    margin: 0.5rem;
+}
+.secondary-button{
+    border: 1px solid $shop-btn-color;
+    color: $shop-btn-color;
+    // width: 70%;
+    border-radius: $border-radius;
+    cursor: pointer;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+.square-button{
+    background-color:$shop-btn-color;
+    color: $fff;
+    width: 50%;
+    cursor: pointer;
+    padding: 0.5rem 0;
+    text-align: center;
+    border-radius: 0;
+}
+
+.cute-button{
+    display: block;
+    // width: 100px;
+    // height: 50px;
+    // line-height: 50px;
+    color: #fdfcfb;
+    background-color: #e5c0c0;
+    box-shadow: 5px 5px 0 #bd3d3d;
+    text-shadow: 0px 0px 1px #bd3d3d;
+    font-weight: 700;
+    cursor: pointer;
+}
+.cute-button:hover{
+    background-color: $btn-hover-bgColor;
+    color: #bd3d3d;
+    text-shadow: none;
+    
+}

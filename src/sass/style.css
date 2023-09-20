@@ -1,0 +1,340 @@
+:root {
+  --desktop-btn-width: 150px;
+}
+
+.primary-button {
+  background-color: #bd3d3d;
+  color: #ffffff;
+  border-radius: 20px;
+  cursor: pointer;
+  margin: 0.5rem;
+}
+
+.secondary-button {
+  border: 1px solid #bd3d3d;
+  color: #bd3d3d;
+  border-radius: 20px;
+  cursor: pointer;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+.square-button {
+  background-color: #bd3d3d;
+  color: #ffffff;
+  width: 50%;
+  cursor: pointer;
+  padding: 0.5rem 0;
+  text-align: center;
+  border-radius: 0;
+}
+
+.cute-button {
+  display: block;
+  color: #fdfcfb;
+  background-color: #e5c0c0;
+  box-shadow: 5px 5px 0 #bd3d3d;
+  text-shadow: 0px 0px 1px #bd3d3d;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.cute-button:hover {
+  background-color: #e3afaf;
+  color: #bd3d3d;
+  text-shadow: none;
+}
+
+body {
+  background: #fff;
+  background-repeat: no-repeat;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+section {
+  margin: 20px 0;
+}
+
+h1 {
+  font: 600 36px/1.2 "Nunito", sans-serif;
+  color: #595959;
+  letter-spacing: 2px;
+}
+@media all and (min-width: 375px) {
+  h1 {
+    font: 600 36px/1.2 "Nunito", sans-serif;
+    color: #595959;
+    letter-spacing: 2px;
+  }
+}
+@media all and (min-width: 768px) {
+  h1 {
+    font: 600 48px/1.2 "Nunito", sans-serif;
+    color: #595959;
+    letter-spacing: 2px;
+  }
+}
+@media all and (min-width: 1280px) {
+  h1 {
+    font: 600 60px/1.2 "Nunito", sans-serif;
+    color: #595959;
+    letter-spacing: 2px;
+  }
+}
+
+h2 {
+  font: 600 28px/1.4 "Nunito", sans-serif;
+  color: #595959;
+  letter-spacing: 2px;
+}
+@media all and (min-width: 375px) {
+  h2 {
+    font: 600 28px/1.4 "Nunito", sans-serif;
+    color: #595959;
+    letter-spacing: 2px;
+  }
+}
+@media all and (min-width: 768px) {
+  h2 {
+    font: 600 40px/1.4 "Nunito", sans-serif;
+    color: #595959;
+    letter-spacing: 2px;
+  }
+}
+@media all and (min-width: 1280px) {
+  h2 {
+    font: 600 48px/1.4 "Nunito", sans-serif;
+    color: #595959;
+    letter-spacing: 2px;
+  }
+}
+
+h3 {
+  font: 500 24px/1.4 "Nunito", sans-serif;
+  color: #595959;
+  letter-spacing: 2px;
+}
+@media all and (min-width: 375px) {
+  h3 {
+    font: 500 24px/1.4 "Nunito", sans-serif;
+    color: #595959;
+    letter-spacing: 2px;
+  }
+}
+@media all and (min-width: 768px) {
+  h3 {
+    font: 500 36px/1.4 "Nunito", sans-serif;
+    color: #595959;
+    letter-spacing: 2px;
+  }
+}
+@media all and (min-width: 1280px) {
+  h3 {
+    font: 500 40px/1.4 "Nunito", sans-serif;
+    color: #595959;
+    letter-spacing: 2px;
+  }
+}
+
+h4 {
+  font: 500 20px/1.4 "Nunito", sans-serif;
+  color: #595959;
+  letter-spacing: 1px;
+}
+@media all and (min-width: 375px) {
+  h4 {
+    font: 500 20px/1.4 "Nunito", sans-serif;
+    color: #595959;
+    letter-spacing: 1px;
+  }
+}
+@media all and (min-width: 768px) {
+  h4 {
+    font: 500 28px/1.4 "Nunito", sans-serif;
+    color: #595959;
+    letter-spacing: 1px;
+  }
+}
+@media all and (min-width: 1280px) {
+  h4 {
+    font: 500 32px/1.4 "Nunito", sans-serif;
+    color: #595959;
+    letter-spacing: 1px;
+  }
+}
+
+h5 {
+  font: 500 18px/1.4 "Nunito", sans-serif;
+  color: #595959;
+  letter-spacing: 1px;
+}
+@media all and (min-width: 375px) {
+  h5 {
+    font: 500 18px/1.4 "Nunito", sans-serif;
+    color: #595959;
+    letter-spacing: 1px;
+  }
+}
+@media all and (min-width: 768px) {
+  h5 {
+    font: 500 24px/1.4 "Nunito", sans-serif;
+    color: #595959;
+    letter-spacing: 1px;
+  }
+}
+@media all and (min-width: 1280px) {
+  h5 {
+    font: 500 24px/1.4 "Nunito", sans-serif;
+    color: #595959;
+    letter-spacing: 1px;
+  }
+}
+
+h6 {
+  font: 500 18px/1.4 "Nunito", sans-serif;
+  color: #595959;
+  letter-spacing: 1px;
+}
+@media all and (min-width: 375px) {
+  h6 {
+    font: 500 18px/1.4 "Nunito", sans-serif;
+    color: #595959;
+    letter-spacing: 1px;
+  }
+}
+@media all and (min-width: 768px) {
+  h6 {
+    font: 500 24px/1.4 "Nunito", sans-serif;
+    color: #595959;
+    letter-spacing: 1px;
+  }
+}
+@media all and (min-width: 1280px) {
+  h6 {
+    font: 500 24px/1.4 "Nunito", sans-serif;
+    color: #595959;
+    letter-spacing: 1px;
+  }
+}
+
+p {
+  font: 200 16px/1.4 "Nunito", sans-serif;
+  color: #5e2b2b;
+  letter-spacing: 1px;
+}
+@media all and (min-width: 375px) {
+  p {
+    font: 200 16px/1.4 "Nunito", sans-serif;
+    color: #5e2b2b;
+    letter-spacing: 1px;
+  }
+}
+@media all and (min-width: 768px) {
+  p {
+    font: 200 16px/1.4 "Nunito", sans-serif;
+    color: #5e2b2b;
+    letter-spacing: 1px;
+  }
+}
+@media all and (min-width: 1280px) {
+  p {
+    font: 200 18px/1.4 "Nunito", sans-serif;
+    color: #5e2b2b;
+    letter-spacing: 1px;
+  }
+}
+
+a {
+  font: 200 16px/1.4 "Nunito", sans-serif;
+  color: #5e2b2b;
+  letter-spacing: 1px;
+}
+@media all and (min-width: 375px) {
+  a {
+    font: 300 20px/1.4 "Nunito", sans-serif;
+    color: #5e2b2b;
+    letter-spacing: 1px;
+  }
+}
+@media all and (min-width: 768px) {
+  a {
+    font: 300 20px/1.4 "Nunito", sans-serif;
+    color: #5e2b2b;
+    letter-spacing: 1px;
+  }
+}
+@media all and (min-width: 1280px) {
+  a {
+    font: 300 20px/1.4 "Nunito", sans-serif;
+    color: #5e2b2b;
+    letter-spacing: 1px;
+  }
+}
+
+span {
+  font: "Nunito", sans-serif;
+  color: #595959;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+
+li {
+  font: 300 20px/1.4 "Nunito", sans-serif;
+  color: #595959;
+  letter-spacing: 2px;
+  text-decoration: none;
+  list-style: none;
+}
+
+ul {
+  font: 300 20px/1.4 "Nunito", sans-serif;
+  color: #595959;
+  letter-spacing: 2px;
+  text-decoration: none;
+  list-style: none;
+}
+
+label {
+  font: 300 18px/1.4 "Nunito", sans-serif;
+  color: #111;
+  letter-spacing: 2px;
+}
+
+input {
+  font: 300 16px/1.4 "Nunito", sans-serif;
+  color: #111;
+  letter-spacing: 2px;
+  border-radius: 0px;
+  padding: 0.5rem;
+}
+
+@media all and (min-width: 375px) {
+  .card_container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media all and (min-width: 768px) {
+  .card_container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media all and (min-width: 1280px) {
+  .card_container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+i {
+  font-size: 25px;
+}
+
+.bxs-heart {
+  color: #e03859;
+}
+
+.bxs-star {
+  color: rgb(228, 228, 21);
+}/*# sourceMappingURL=style.css.map */

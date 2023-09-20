@@ -1,0 +1,67 @@
+@mixin caption-title($caption-h1, $caption-color, $spacing-h1){
+    font: $caption-h1;
+    color: $caption-color;
+    letter-spacing: $spacing-h1;
+}
+@mixin caption-s-title($caption-s-h1, $caption-color, $spacing-h1){
+    font: $caption-s-h1;
+    color: $caption-color;
+    letter-spacing: $spacing-h1;
+}
+@mixin caption-m-title($caption-m-h1, $caption-color, $spacing-h1){
+    font: $caption-m-h1;
+    color: $caption-color;
+    letter-spacing: $spacing-h1;
+}
+@mixin caption-l-title($caption-l-h1, $caption-color, $spacing-h1){
+    font: $caption-l-h1;
+    color: $caption-color;
+    letter-spacing: $spacing-h1;
+}
+
+//span
+@mixin caption-span($caption-span, $caption-color, $spacing-h1){
+    font: $caption-span;
+    color: $caption-color;
+    letter-spacing: $spacing-h1;
+    text-decoration: none;
+}
+//ul.li
+@mixin caption-li($caption-li, $caption-color, $spacing-h1){
+    font: $caption-li;
+    color: $caption-color;
+    letter-spacing: $spacing-h1;
+    text-decoration: none;
+    list-style: none;
+}
+@mixin caption-label($caption-label, $allblack, $spacing-h1){
+    font: $caption-label;
+    color: $allblack;
+    letter-spacing: $spacing-h1;
+}
+@mixin caption-input($caption-label, $allblack, $spacing-h1){
+    font: $caption-label;
+    color: $allblack;
+    letter-spacing: $spacing-h1;
+    border-radius: $input-border-radius;
+}
+
+// 斷點設定
+@mixin s($s-breakpoint){
+    @media all and (min-width:$s-breakpoint) {
+        @content;
+    }
+}
+
+@mixin m($m-breakpoint){
+    @media all and (min-width:$m-breakpoint) {
+        @content;
+    }
+}
+
+@mixin l($l-breakpoint){
+    @media all and (min-width:$l-breakpoint) {
+        @content;
+    }
+}
+
