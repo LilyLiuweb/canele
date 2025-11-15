@@ -34,7 +34,7 @@
       </p>
     </div>
     <h4>{{ name }}</h4>
-    <div class="img_box"><img :src="`../src/assets/pages/products/${src}`" /></div>
+    <div class="img_box"><img :src="`../public/pages/products/${src}`" /></div>
   </div>
 </template>
 

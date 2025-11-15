@@ -29,12 +29,12 @@
       :modules="modules"
       class="mySwiper"
     >
-      <swiper-slide><img src="../assets/pages/products/cake.png" /></swiper-slide>
-      <swiper-slide><img src="../assets/pages/products/canele3.jpg" /></swiper-slide>
-      <swiper-slide><img src="../assets/pages/products/cheesecake.jpg" /></swiper-slide>
-      <swiper-slide><img src="../assets/pages/products/macaron.png" /></swiper-slide
-      ><swiper-slide><img src="../assets/pages/products/pofu.jpg" /></swiper-slide>
-      <swiper-slide><img src="../assets/pages/products/tart.jpg" /></swiper-slide>
+      <swiper-slide><img src="../../public/pages/products/cake.png" /></swiper-slide>
+      <swiper-slide><img src="../../public/pages/products/canele3.jpg" /></swiper-slide>
+      <swiper-slide><img src="../../public/pages/products/cheesecake.jpg" /></swiper-slide>
+      <swiper-slide><img src="../../public/pages/products/macaron.png" /></swiper-slide
+      ><swiper-slide><img src="../../public/pages/products/pofu.jpg" /></swiper-slide>
+      <swiper-slide><img src="../../public/pages/products/tart.jpg" /></swiper-slide>
     </swiper>
 
     <h3>All sweets</h3>
@@ -258,7 +258,7 @@ export default {
   padding-top: 0.5rem;
 }
 .accordion_container {
-  background-image: url(../assets/pages/products/pie.jpg);
+  background-image: url(../public/pages/products/pie.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right 25% bottom 28%;

@@ -28,7 +28,7 @@
             <tr>
               <td>
                 <div class="product_img">
-                  <img src="../assets/pages/products/canele3.jpg" alt="" />
+                  <img src="../../public/pages/products/canele3.jpg" alt="" />
                 </div>
               </td>
               <td>

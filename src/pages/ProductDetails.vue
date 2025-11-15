@@ -65,7 +65,7 @@
   <div class="member_container">
     <div class="member">
       <div class="member_img">
-        <img src="../assets/pages/products/macaron.png" alt="" />
+        <img src="../../public/pages/products/macaron.png" alt="" />
       </div>
       <div class="member_intro">
         <h4>macaron</h4>
@@ -78,7 +78,7 @@
     </div>
     <div class="member">
       <div class="member_img">
-        <img src="../assets/pages/products/canele3.jpg" alt="" />
+        <img src="../../public/pages/products/canele3.jpg" alt="" />
       </div>
       <div class="member_intro">
         <h4>canele3</h4>
@@ -91,7 +91,7 @@
     </div>
     <div class="member">
       <div class="member_img">
-        <img src="../assets/pages/products/tart.jpg" alt="" />
+        <img src="../../public/pages/products/tart.jpg" alt="" />
       </div>
       <div class="member_intro">
         <h4>tart</h4>
