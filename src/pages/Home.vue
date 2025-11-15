@@ -62,7 +62,7 @@
       <ul class="border-20">
         <li>Long time ago</li>
         <li>An engineer couple wakes up one day</li>
-        <li>Find they can't be satisfied with the our job</li>
+        <li>Find they can't be satisfied with their job</li>
         <li>when facing our heart voice</li>
         <li>discover an intense love for French dessert</li>
         <li>can't ignore</li>
